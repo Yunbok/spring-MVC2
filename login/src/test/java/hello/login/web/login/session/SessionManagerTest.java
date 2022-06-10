@@ -33,6 +33,10 @@ class SessionManagerTest {
         //세션조회
         Object result = sessionManager.getSession(request);
         assertThat(result).isEqualTo(member);
-
+        
+        // 세션만료
+        sessionManager.expire(request);
+        Object expired = sessionManager.getSession(request);
+        assertThat(expired).isNull();
     }
 }
