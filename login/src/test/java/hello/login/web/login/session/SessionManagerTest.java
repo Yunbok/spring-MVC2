@@ -1,15 +1,12 @@
 package hello.login.web.login.session;
 
 import hello.login.domain.member.Member;
-import org.junit.jupiter.api.Assertions;
+import hello.login.web.session.SessionManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
 
-import javax.servlet.http.HttpServletResponse;
-
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 
 class SessionManagerTest {

@@ -1,4 +1,4 @@
-package hello.login.web.login.session;
+package hello.login.web.session;
 
 
 import org.springframework.stereotype.Component;
