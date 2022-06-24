@@ -1,0 +1,3 @@
+[submodule "upload/config"]
+	path = upload/config
+	url = https://github.com/Yunbok/private-config-repo.git
